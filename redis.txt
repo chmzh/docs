@@ -1,0 +1,43 @@
+# wget http://download.redis.io/releases/redis-2.8.17.tar.gz
+# tar xzf redis-2.8.17.tar.gz
+# cd redis-2.8.17
+# make
+# make install
+
+设置配置文件路径:
+
+
+# mkdir -p /etc/redis && cp redis.conf /etc/redis
+
+修改配置文件：
+
+
+# vim /etc/redis/redis.conf
+修改为： daemonize yes
+启动Redis:
+
+
+# /usr/local/bin/redis-server /etc/redis/redis.conf
+#关闭服务
+
+
+redis-cli shutdown
+
+或者在cli中执行shutdown
+
+
+redis 127.0.0.1:6379> shutdown
+
+清除缓存
+
+
+redis-cli flushall
+
+更多文档请参考软件包内的“README”文件。
+查看状态 ：
+
+# ss -nlp|grep redis
+
+或者
+
+# ps -ef | grep redis

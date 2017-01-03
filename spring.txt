@@ -1,0 +1,10 @@
+配置DelegatingFilterProxy使用Spring管理filter chain
+http://www.cnblogs.com/hiver/p/4615418.html
+
+
+spring-security中的csrf防御机制 
+http://blog.csdn.net/behurry/article/details/38169279
+http://blog.csdn.net/ziruominglin/article/details/51718835
+
+
+https://github.com/spring-projects/spring-security-oauth
