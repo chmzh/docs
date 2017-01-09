@@ -1,0 +1,27 @@
+1、Spring boot web 项目生成 war
+答：第一步提供 SpringBootServletInitializer的子类并复盖configure方法，如下所示
+@SpringBootApplication
+public class Application extends SpringBootServletInitializer {
+
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        return application.sources(Application.class);
+    }
+
+    public static void main(String[] args) throws Exception {
+        SpringApplication.run(Application.class, args);
+    }
+
+}
+第二步：如果你使用maven 和 spring-boot-starter-parent 你只需要在pom.xml中添加
+<packaging>war</packaging>
+最后一步 添加依懒
+<dependencies>
+    <!-- … -->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-tomcat</artifactId>
+        <scope>provided</scope>
+    </dependency>
+    <!-- … -->
+</dependencies>
