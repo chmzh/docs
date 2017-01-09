@@ -26,3 +26,7 @@ public class Application extends SpringBootServletInitializer {
     <!-- … -->
 </dependencies>
 参考http://docs.spring.io/spring-boot/docs/current/reference/html/howto-traditional-deployment.html
+
+2、在开发阶段热布署 在STS开发工具中右键项目 -> Spring Tools -> add devBoot tools
+spring-boot-devtools
+参考 http://docs.spring.io/spring-boot/docs/current/reference/html/using-boot-devtools.html#using-boot-devtools-restart-exclude
