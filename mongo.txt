@@ -1,0 +1,13 @@
+> use demo;      //创建数据库
+> db.user.insert({name:'chmzh'});   //在文档user中插入数据
+> db.address.insert({name:'hainan'});   //在文档address中插入数据
+> db.user.find();
+{ "_id" : ObjectId("5886b528be5216555d9759f6"), "name" : "chmzh" }
+> db.address.find();
+{ "_id" : ObjectId("5886b574be5216555d9759f7"), "name" : "hainan" }
+
+//将user文档和 address文档关联
+> db.user.update({'_id':ObjectId("5886b528be5216555d9759f6")},{$set:{'addressid':ObjectId("5886b574be5216555d9759f7")}});
+WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
+> db.user.find();
+{ "_id" : ObjectId("5886b528be5216555d9759f6"), "name" : "chmzh", "addressid" : ObjectId("5886b574be5216555d9759f7") }
