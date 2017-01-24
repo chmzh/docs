@@ -18,3 +18,13 @@ WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 
 使用MongoDB存储地理位置信息
 http://blog.csdn.net/huangrunqing/article/details/9112227
+
+
+http://blog.csdn.net/zxjiayou1314/article/details/50844489
+//经纬度操作
+db.location.insert({loc:{lon:40.739037,lat:73.992964}});
+2d索引
+db.location.ensureIndex( { loc : "2d" } )
+精确查询
+db.location.find({loc:[50,50]});
+查询某个点附近的点
