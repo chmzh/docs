@@ -11,3 +11,10 @@
 WriteResult({ "nMatched" : 1, "nUpserted" : 0, "nModified" : 1 })
 > db.user.find();
 { "_id" : ObjectId("5886b528be5216555d9759f6"), "name" : "chmzh", "addressid" : ObjectId("5886b574be5216555d9759f7") }
+
+//清空集合
+> db.user.remove({})
+
+
+使用MongoDB存储地理位置信息
+http://blog.csdn.net/huangrunqing/article/details/9112227
