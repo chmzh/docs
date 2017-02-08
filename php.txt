@@ -1,12 +1,12 @@
-Windows下配置nginx+php(wnmp)
+Windows脧脗脜盲脰脙nginx+php(wnmp)
 http://jingyan.baidu.com/article/636f38bb408ee4d6b84610b9.html
 
 
 
-启动PHP
+脝么露炉PHP
 D:\dev\php-7.0.11\php-cgi.exe -b 127.0.0.1:9000 -c D:\dev\php-7.0.11\php.ini
 
-启动NGINX
+脝么露炉NGINX
 cd D:\dev\nginx-1.11.4\
 
 start nginx
@@ -17,5 +17,15 @@ start nginx
 
 doitphp
 
-Nginx(PHP/fastcgi)的PATH_INFO配置
+Nginx(PHP/fastcgi)碌脛PATH_INFO脜盲脰脙
 http://blog.hackroad.com/operations-engineer/linux_server/1453.html
+
+
+
+
+
+RPC妗嗘灦
+phprpc  hprose
+
+PHP鐨勫紓姝ャ�佸苟琛屻�侀珮鎬ц兘缃戠粶閫氫俊寮曟搸
+swoole
