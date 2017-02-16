@@ -20,3 +20,10 @@ find . -type f -size +15M | xargs ls -lh
 
 查找是否安装了某个软件
 rpm -qa  | grep libevent
+
+查看交换分区
+swapon -s
+文件名				类型		大小	已用	权限
+/dev/vdc                               	partition	2097148	1409804	-1
+禁用交换分区
+swapoff /dev/vdc
