@@ -1,0 +1,8 @@
+maven 引入外部jar包的几种方式 
+http://blog.csdn.net/pltuyuhong/article/details/50954017
+
+maven打包成jar, 包括依赖其他的jar 
+http://blog.csdn.net/aqiangsz/article/details/52701151
+
+关于Maven dependency中外部jar包依赖的问题 
+http://blog.csdn.net/demo_zj/article/details/47344505
