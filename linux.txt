@@ -38,3 +38,4 @@ du -ah --max-depth=1
 find 对应目录 -mtime +天数 -name "文件名" -exec rm -rf {} \;
  find /bakcup/ -maxdepth 1 -type d -mtime +28 
 http://os.51cto.com/art/201402/430092.htm
+find ./ -maxdepth 1 -type d -mtime +5 -exec rm -rf {} \;
