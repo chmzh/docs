@@ -30,3 +30,9 @@ swapoff /dev/vdc
 
 查看商口被哪个程序占用
 lsof -i :8080
+
+
+linux下使用 du查看某个文件或目录占用磁盘空间的大小
+du -ah --max-depth=1
+自动删除n天前日志
+find 对应目录 -mtime +天数 -name "文件名" -exec rm -rf {} \;
