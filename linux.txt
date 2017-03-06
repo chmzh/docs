@@ -36,3 +36,4 @@ linux下使用 du查看某个文件或目录占用磁盘空间的大小
 du -ah --max-depth=1
 自动删除n天前日志
 find 对应目录 -mtime +天数 -name "文件名" -exec rm -rf {} \;
+ find /bakcup/ -maxdepth 1 -type d -mtime +28 
