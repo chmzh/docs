@@ -1,0 +1,14 @@
+android ant proguard 打包
+1、进入android 项目，执行命令
+android update project --path .
+2、修改 project.properties
+在最后一行添加
+proguard.config=proguard-project.txt
+target=android-17
+android.library=true
+proguard.config=proguard-project.txt
+
+2、在当前项目下执行命令
+ant clean
+ant release
+3、在项目的bin目录中找到 proguard/obfuscated.jar 即为混淆后的代码
