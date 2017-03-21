@@ -3,3 +3,6 @@ http://gee.cs.oswego.edu/dl/cpj/mechanics.html
 http://blog.csdn.net/xiahao86/article/details/22783931
 消灭成堆的分支语句之类责任链模式 
 https://my.oschina.net/redraiment/blog/105209
+
+
+JavaSpaces技术
