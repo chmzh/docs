@@ -6,3 +6,6 @@ https://my.oschina.net/redraiment/blog/105209
 
 
 JavaSpaces技术
+
+JCSP
+http://www.ibm.com/developerworks/cn/java/j-csp2/
