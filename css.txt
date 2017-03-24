@@ -18,3 +18,7 @@ drop-shadow阴影
 
 浏览器内核
 -moz代表firefox浏览器私有属性 -ms代表IE浏览器私有属性 -webkit代表chrome、safari私有属性
+
+
+CSS3的REM设置字体大小 
+https://www.w3cplus.com/css3/define-font-size-with-css3-rem
