@@ -7,3 +7,6 @@ http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
 
 HTML5
 http://codepen.io/LandonSchropp/pen/KpzzGo
+
+页面加载进度条
+NPROGRESS
