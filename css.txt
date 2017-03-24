@@ -1,0 +1,17 @@
+
+
+filter: hue-rotate(60deg)
+
+grayscale灰度
+sepia褐色（求专业指点翻译）
+saturate饱和度
+hue-rotate色相旋转
+invert反色
+opacity透明度
+brightness亮度
+contrast对比度
+blur模糊
+drop-shadow阴影
+著作权归作者所有。
+商业转载请联系作者获得授权,非商业转载请注明出处。
+原文: http://www.w3cplus.com/css3/ten-effects-with-css3-filter © w3cplus.com
