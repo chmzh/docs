@@ -17,3 +17,6 @@ https://en.wikipedia.org/wiki/Polyfill#Examples
 html5 form
 http://afarkas.github.io/webshim/demos/
 http://afarkas.github.io/webshim/demos/demos/forms.html#Locale-markupMessages
+
+模板
+http://fly.layui.com/case/2016/top/
