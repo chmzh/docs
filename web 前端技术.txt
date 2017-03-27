@@ -10,3 +10,9 @@ http://codepen.io/LandonSchropp/pen/KpzzGo
 
 页面加载进度条
 NPROGRESS
+
+
+https://en.wikipedia.org/wiki/Polyfill#Examples
+
+html5 form
+http://afarkas.github.io/webshim/demos/
