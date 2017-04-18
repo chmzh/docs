@@ -1,0 +1,4 @@
+http://gcdn.gcpowertools.com.cn/showtopic-36925-1-3.html
+
+.net core 核心库源码
+https://github.com/dotnet/core
