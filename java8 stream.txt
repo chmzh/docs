@@ -1,0 +1,14 @@
+1、stream.reduce 和 stream.collect 的区别
+
+The semantic problem lies
+in the fact that the reduce method is meant to combine two values and produce a new one; it’s
+an immutable reduction. In contrast, the collect method is designed to mutate a container to
+accumulate the result it’s supposed to produce. This means that the previous snippet of code is
+misusing the reduce method because it’s mutating in place the List used as accumulator. As
+you’ll see in more detail in the next chapter, using the reduce method with the wrong semantic is
+also the cause of a practical problem: this reduction process can’t work in parallel because the
+concurrent modification of the same data structure operated by multiple threads can corrupt the
+List itself. In this case, if you want thread safety, you’ll need to allocate a new List every time,
+which would impair performance by object allocation. This is the main reason why the collect
+method is useful for expressing reduction working on a mutable container but crucially in a
+parallel-friendly way
