@@ -12,6 +12,11 @@ https://github.com/ethereum/webthree-umbrella/releases
 2、安装MIST
 https://github.com/ethereum/mist/releases
 
+安装 gcc 命令工具 mingw 64　位
+https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/installer/mingw-w64-install.exe/download?use_mirror=nchc&r=https%3A%2F%2Fsourceforge.net%2Fprojects%2Fmingw-w64%2Ffiles%2FToolchains%2520targetting%2520Win32%2FPersonal%2520Builds%2Fmingw-builds%2Finstaller%2Fmingw-w64-install.exe%2Fdownload%3Fuse_mirror%3Dnchc%26r%3Dhttps%253A%252F%252Fsourceforge.net%252Fprojects%252Fmingw-w64%252F%26use_mirror%3Dnchc&use_mirror=nchc
+
+
+
 
 Installation instructions for Windows
 
