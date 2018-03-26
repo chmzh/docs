@@ -1,13 +1,24 @@
-²Î¿¼  https://blog.csdn.net/fd_mas/article/details/51911302
-1¡¢°²×°eth
+å‚è€ƒ  https://blog.csdn.net/fd_mas/article/details/51911302
+1ã€å®‰è£…eth
 https://github.com/ethereum/go-ethereum/releases
 
 https://github.com/ethereum/webthree-umbrella/releases
->geth # Æô¶¯geth£¬²¢Á¢¼´¿ªÊ¼Í¬²½Çø¿é
->geth help # ä¯ÀÀËùÓĞÃüÁîµÄÓÃ·¨
->geth account # ¹ÜÀíÕË»§¡£ºóÃæ²»¸ú²ÎÊıÊÇÁĞ³öËùÓĞÕË»§
+>geth # å¯åŠ¨gethï¼Œå¹¶ç«‹å³å¼€å§‹åŒæ­¥åŒºå—
+>geth help # æµè§ˆæ‰€æœ‰å‘½ä»¤çš„ç”¨æ³•
+>geth account # ç®¡ç†è´¦æˆ·ã€‚åé¢ä¸è·Ÿå‚æ•°æ˜¯åˆ—å‡ºæ‰€æœ‰è´¦æˆ·
 
-¸÷ÖÖÏêÏ¸ËµÃ÷£¬¼û£ºhttps://github.com/ethereum/go-ethereum/wiki
+å„ç§è¯¦ç»†è¯´æ˜ï¼Œè§ï¼šhttps://github.com/ethereum/go-ethereum/wiki
 
-2¡¢°²×°MIST
+2ã€å®‰è£…MIST
 https://github.com/ethereum/mist/releases
+
+
+Installation instructions for Windows
+
+å®‰è£…åŒ…ç®¡ç†å·¥å…·
+https://chocolatey.org/install#installing-chocolatey
+
+æŠŠ@"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+æ‹·è´åˆ°å‘½ä»¤è¡Œä¸­æ‰§è¡Œ
+
+https://github.com/ethereum/go-ethereum/wiki/Installation-instructions-for-Windows
