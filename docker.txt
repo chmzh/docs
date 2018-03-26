@@ -1,0 +1,13 @@
+
+docker-machine ssh default
+
+docker ¾µÏñ
+
+
+
+--registry-mirror=http://hub-mirror.c.163.com
+
+Ìí¼Óµ½ EXTRA_ARGS ÖÐ
+EXTRA_ARGS='
+--registry-mirror=http://hub-mirror.c.163.com
+'
