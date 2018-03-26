@@ -1,0 +1,13 @@
+参考  https://blog.csdn.net/fd_mas/article/details/51911302
+1、安装eth
+https://github.com/ethereum/go-ethereum/releases
+
+https://github.com/ethereum/webthree-umbrella/releases
+>geth # 启动geth，并立即开始同步区块
+>geth help # 浏览所有命令的用法
+>geth account # 管理账户。后面不跟参数是列出所有账户
+
+各种详细说明，见：https://github.com/ethereum/go-ethereum/wiki
+
+2、安装MIST
+https://github.com/ethereum/mist/releases
