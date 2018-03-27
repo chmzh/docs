@@ -1,3 +1,8 @@
+
+下载 golang
+https://storage.googleapis.com/golang/
+
+
 参考  https://blog.csdn.net/fd_mas/article/details/51911302
 1、安装eth
 https://github.com/ethereum/go-ethereum/releases
