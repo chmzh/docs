@@ -1,13 +1,16 @@
 
+ä¸‹è½½ docker-tool
+https://dn-dao-github-mirror.daocloud.io/docker/toolbox/releases/download/v18.03.0-ce/DockerToolbox-18.03.0-ce.exe
+
 docker-machine ssh default
 
-docker ¾µÏñ
+docker Â¾ÂµÃÃ±
 
 
 
 --registry-mirror=http://hub-mirror.c.163.com
 
-Ìí¼Óµ½ EXTRA_ARGS ÖĞ
+ÃŒÃ­Â¼Ã“ÂµÂ½ EXTRA_ARGS Ã–Ã
 EXTRA_ARGS='
 --registry-mirror=http://hub-mirror.c.163.com
 '
