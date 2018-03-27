@@ -60,3 +60,6 @@ git clone git@github.com:golang/net.git --depth 1
 在x目录下，进行克隆仓库 $ git clone git@github.com:golang/net.git --depth 1
 再次尝试编译，此问题被解决
 
+
+
+
