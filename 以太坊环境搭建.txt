@@ -1,3 +1,6 @@
+发行新币
+https://github.com/ConsenSys/Tokens
+
 
 下载 golang
 https://storage.googleapis.com/golang/
