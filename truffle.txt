@@ -1,0 +1,45 @@
+truffle
+https://github.com/trufflesuite/truffle/blob/develop/README.md
+
+https://github.com/truffle-box/metacoin-box
+
+https://blog.csdn.net/mynameissls/article/details/79141064
+
+ganache-cli
+https://github.com/trufflesuite/ganache-cli/
+
+http://truffleframework.com/docs/getting_started/client
+
+安装 remix
+https://github.com/ethereum/remix/blob/master/remix-debugger/README.md
+
+安装 truffle
+npm install -g truffle
+
+安装 ganache-cli
+
+npm install -g ganache-cli
+
+发布智能合约
+
+初始化 truffle项目
+
+mkdir test
+cd test
+
+truffle init
+
+打开第一个命令行窗口
+
+ganache-cli
+
+打开第二个命令行窗口
+
+cd test/contracts
+
+在执行 truffle compile 之前先要在另一个窗口中先执行 ganache-clie
+
+truffle compile
+
+
+
