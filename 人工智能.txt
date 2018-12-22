@@ -1,3 +1,8 @@
-tensorflow ���ķִ�
+tensorflow ÖÐÎÄ·Ö´Ê
 https://github.com/koth/kcws
 http://45.32.100.248:9090/#/
+
+百度：keras 构建模型，显示分类
+Multi-label classification with Keras
+https://www.pyimagesearch.com/2018/05/07/multi-label-classification-with-keras/
+https://cloud.tencent.com/developer/article/1169364
