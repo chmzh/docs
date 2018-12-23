@@ -9,3 +9,7 @@ https://cloud.tencent.com/developer/article/1169364
 
 python opencv2
 https://github.com/abidrahmank/OpenCV2-Python-Tutorials
+
+
+keras LSTM实现简单的问答系统，keras的bAbI
+https://blog.csdn.net/Amy_mm/article/details/81084729
