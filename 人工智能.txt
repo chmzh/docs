@@ -6,3 +6,6 @@ http://45.32.100.248:9090/#/
 Multi-label classification with Keras
 https://www.pyimagesearch.com/2018/05/07/multi-label-classification-with-keras/
 https://cloud.tencent.com/developer/article/1169364
+
+python opencv2
+https://github.com/abidrahmank/OpenCV2-Python-Tutorials
