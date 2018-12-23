@@ -13,3 +13,8 @@ https://github.com/abidrahmank/OpenCV2-Python-Tutorials
 
 keras LSTM实现简单的问答系统，keras的bAbI
 https://blog.csdn.net/Amy_mm/article/details/81084729
+
+
+深度学习案例学习
+《21个项目玩转深度学习》配套代码
+https://github.com/hzy46/Deep-Learning-21-Examples
